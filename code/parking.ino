@@ -2,6 +2,8 @@
 #include <Adafruit_Sensor.h>
 #include <Wire.h>
 #include <Stepper.h>
+#include <SoftwareSerial.h>
+#include <TinyGPS++.h>
 
 Stepper motor(2038, 12, 11, 10, 9);
 Adafruit_MPU6050 mpu;
